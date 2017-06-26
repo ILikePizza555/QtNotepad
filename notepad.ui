@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>676</width>
-    <height>333</height>
+    <width>698</width>
+    <height>408</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -28,7 +28,11 @@
      <number>0</number>
     </property>
     <item row="0" column="0">
-     <widget class="QTextEdit" name="textEdit"/>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -37,7 +41,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>676</width>
+     <width>698</width>
      <height>21</height>
     </rect>
    </property>
